@@ -2,7 +2,7 @@ class BlogHeader extends HTMLElement{
     constructor()
     {
         super();
-        this.textContent = "I Am A Blog Header";
+        this.textContent = "Hello world";
     }
 }
 window.customElements.define("blog-header", BlogHeader);
